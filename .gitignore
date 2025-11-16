@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Cocotb simulation files
+sim_build/
+*.vvp
+*.fst
+*.vcd
+*.ghw
+
+# Coverage files
+*.xml
+*.ucis
+coverage_report*.csv
+results.xml
+cov.xml
+
+# Zone Identifier files (Windows/WSL)
+*:Zone.Identifier
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
