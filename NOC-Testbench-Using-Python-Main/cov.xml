@@ -1,0 +1,133 @@
+<UCIS xmlns:ucis="http://www.w3.org/2001/XMLSchema-instance" writtenBy="arvind" writtenTime="2025-11-16T00:00:00" ucisVersion="1.0">
+  <sourceFiles fileName="__null__file__" id="1"/>
+  <sourceFiles fileName="&lt;unknown&gt;" id="2"/>
+  <sourceFiles fileName="/home/arvind/NOC-Testbench-Using-Python-Main/NOC-Testbench-Using-Python-Main/modules/sequence.py" id="3"/>
+  <historyNodes historyNodeId="0" logicalName="logicalName" physicalName="foo.ucis" kind="1" testStatus="true" simtime="0.0" timeunit="ns" runCwd="." cpuTime="0.0" seed="0" cmd="" args="" compulsory="0" date="2025-11-16T06:19:05" userName="user" cost="0.0" toolCategory="UCIS:simulator" ucisVersion="1.0" vendorId="unknown" vendorTool="unknown" vendorToolVersion="unknown"/>
+  <instanceCoverages name="cg_inst" key="0">
+    <id file="1" line="1" inlineCount="1"/>
+    <covergroupCoverage>
+      <cgInstance name="NoCCoverage" key="0">
+        <options/>
+        <cgId cgName="NoCCoverage" moduleName="NoCCoverage">
+          <cginstSourceId file="1" line="1" inlineCount="1"/>
+          <cgSourceId file="1" line="1" inlineCount="1"/>
+        </cgId>
+        <coverpoint name="source_cvp" key="0">
+          <options/>
+          <coverpointBin name="src_bins[0]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="3"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="src_bins[1]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="3"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="src_bins[2]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="3"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="src_bins[3]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="3"/>
+            </range>
+          </coverpointBin>
+        </coverpoint>
+        <coverpoint name="destination_cvp" key="0">
+          <options/>
+          <coverpointBin name="dst_bins[0]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="3"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="dst_bins[1]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="3"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="dst_bins[2]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="3"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="dst_bins[3]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="3"/>
+            </range>
+          </coverpointBin>
+        </coverpoint>
+        <cross name="cp1X2" key="0">
+          <options/>
+          <crossExpr>source_cvp</crossExpr>
+          <crossExpr>destination_cvp</crossExpr>
+          <crossBin name="&lt;src_bins[0],dst_bins[0]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="0"/>
+          </crossBin>
+          <crossBin name="&lt;src_bins[0],dst_bins[1]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="1"/>
+          </crossBin>
+          <crossBin name="&lt;src_bins[0],dst_bins[2]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="1"/>
+          </crossBin>
+          <crossBin name="&lt;src_bins[0],dst_bins[3]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="1"/>
+          </crossBin>
+          <crossBin name="&lt;src_bins[1],dst_bins[0]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="1"/>
+          </crossBin>
+          <crossBin name="&lt;src_bins[1],dst_bins[1]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="0"/>
+          </crossBin>
+          <crossBin name="&lt;src_bins[1],dst_bins[2]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="1"/>
+          </crossBin>
+          <crossBin name="&lt;src_bins[1],dst_bins[3]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="1"/>
+          </crossBin>
+          <crossBin name="&lt;src_bins[2],dst_bins[0]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="1"/>
+          </crossBin>
+          <crossBin name="&lt;src_bins[2],dst_bins[1]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="1"/>
+          </crossBin>
+          <crossBin name="&lt;src_bins[2],dst_bins[2]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="0"/>
+          </crossBin>
+          <crossBin name="&lt;src_bins[2],dst_bins[3]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="1"/>
+          </crossBin>
+          <crossBin name="&lt;src_bins[3],dst_bins[0]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="1"/>
+          </crossBin>
+          <crossBin name="&lt;src_bins[3],dst_bins[1]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="1"/>
+          </crossBin>
+          <crossBin name="&lt;src_bins[3],dst_bins[2]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="1"/>
+          </crossBin>
+          <crossBin name="&lt;src_bins[3],dst_bins[3]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="0"/>
+          </crossBin>
+        </cross>
+      </cgInstance>
+    </covergroupCoverage>
+  </instanceCoverages>
+</UCIS>
