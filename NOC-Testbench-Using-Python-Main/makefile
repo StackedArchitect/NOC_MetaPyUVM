@@ -10,6 +10,7 @@ VERILOG_SOURCES=$(CWD)/RTL/mesh_router3x3.v\
 	$(CWD)/RTL/mesh_router3x4.v\
 	$(CWD)/RTL/mesh_router4x4.v\
 	$(CWD)/RTL/mesh_router8x8.v\
+	$(CWD)/RTL/mesh_router16x16.v\
                 $(CWD)/RTL/top_module.v \
                 $(CWD)/RTL/op_link1.v \
                 $(CWD)/RTL/op_link2.v \
@@ -46,7 +47,7 @@ VERILOG_SOURCES=$(CWD)/RTL/mesh_router3x3.v\
                 $(CWD)/RTL/asynch_comparator.v
 
 MODULE := testbenchUvm
-TOPLEVEL := top_8x8_router
+TOPLEVEL := top_16x16_router
 TOPLEVEL_LANG := verilog
 COCOTB_HDL_TIMEUNIT=1us
 COCOTB_HDL_TIMEPRECISION=1ns

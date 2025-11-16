@@ -22,8 +22,8 @@ logger.setLevel(logging.DEBUG)
 
 
 
-row=8
-column=8
+row=16
+column=16
 @pyuvm.test()
 class test(uvm_test):
 
