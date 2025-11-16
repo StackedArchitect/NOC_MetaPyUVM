@@ -1,0 +1,7 @@
+# Python Dependencies for NOC Testbench using PyUVM
+cocotb>=1.8.0
+pyuvm>=4.0.0
+pytest>=8.0.0
+numpy
+scipy
+pyvsc
