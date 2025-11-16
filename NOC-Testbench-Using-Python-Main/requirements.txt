@@ -1,7 +1,17 @@
-# Python Dependencies for NOC Testbench using PyUVM
+# Core testing and verification frameworks
 cocotb>=1.8.0
 pyuvm>=4.0.0
 pytest>=8.0.0
-numpy
-scipy
-pyvsc
+
+# Constraint solving and randomization
+pyvsc>=0.9.4
+
+# Scientific computing for heuristic algorithms
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Coverage reporting
+pytest-cov>=4.0.0
+
+# UCIS coverage format support
+pyucis>=0.1.4

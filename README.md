@@ -56,18 +56,21 @@ NOC-Testbench-Using-Python-Main/
 ## Installation
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/StackedArchitect/NOC_MetaPyUVM.git
 cd NOC_MetaPyUVM/NOC-Testbench-Using-Python-Main
 ```
 
 2. Create and activate virtual environment:
+
 ```bash
 python3 -m venv env
 source env/bin/activate  # On Windows: env\Scripts\activate
 ```
 
 3. Install dependencies:
+
 ```bash
 pip install cocotb pyuvm pyvsc pyucis numpy tabulate
 ```
@@ -116,6 +119,7 @@ make clean
 ## Coverage Metrics
 
 The testbench tracks functional coverage for:
+
 - **Source-Destination Cross Coverage**: All valid routing paths excluding same-router paths
 - **Coverage Goals**:
   - 2x2: 12 valid paths (4 routers × 3 destinations each)

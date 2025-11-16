@@ -9,38 +9,21 @@ __pycache__/
 *.pyo
 *.pyd
 .Python
-*.so
-*.egg
-*.egg-info/
-dist/
-build/
 
-# Simulation build files
-sim_build/
-
-# Zone.Identifier files (Windows WSL artifact)
-*.Zone.Identifier
-
-# Coverage reports (keep one or two representative ones, exclude duplicates)
-coverage_report_*.csv
-
-# XML files (can be regenerated)
-*.xml
-
-# Temporary files
-*.tmp
-*.log
+# IDE
+.idea/
+.vscode/
 *.swp
 *.swo
 *~
-temp.py
-tempCodeRunnerFile.py
-
-# IDE files
-.vscode/
-.idea/
-*.sublime-*
 
 # OS files
 .DS_Store
 Thumbs.db
+
+# Simulation build files
+sim_build/
+
+# Temporary files
+temp.py
+tempCodeRunnerFile.py
